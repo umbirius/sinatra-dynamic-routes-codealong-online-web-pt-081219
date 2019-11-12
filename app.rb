@@ -23,7 +23,7 @@ class App < Sinatra::Base
     @num1 = params[:num1]
     @num2 = params[:num2]
     prod = (@num1 * @num2)
-    "#{prod}"
+    "#{prod.to_s}"
   end 
 
 end
